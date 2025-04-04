@@ -1,0 +1,100 @@
+/* Dark mode styles */
+body.dark {
+    background-color: #111827 !important;
+    color: #f9fafb !important;
+  }
+  
+  /* Background colors */
+  .dark .bg-white {
+    background-color: #1f2937 !important;
+  }
+  
+  .dark .bg-gray-50 {
+    background-color: #111827 !important;
+  }
+  
+  .dark .bg-gray-100 {
+    background-color: #1f2937 !important;
+  }
+  
+  .dark .bg-gray-200 {
+    background-color: #374151 !important;
+  }
+  
+  .dark .bg-gray-800 {
+    background-color: #1f2937 !important;
+  }
+  
+  /* Text colors */
+  .dark .text-gray-900 {
+    color: #f3f4f6 !important;
+  }
+  
+  .dark .text-gray-800 {
+    color: #f3f4f6 !important;
+  }
+  
+  .dark .text-gray-700 {
+    color: #e5e7eb !important;
+  }
+  
+  .dark .text-gray-600 {
+    color: #d1d5db !important;
+  }
+  
+  .dark .text-gray-500 {
+    color: #9ca3af !important;
+  }
+  
+  .dark .text-gray-400 {
+    color: #9ca3af !important;
+  }
+  
+  .dark .text-gray-300 {
+    color: #d1d5db !important;
+  }
+  
+  /* Border colors */
+  .dark .border-gray-200,
+  .dark .border-t {
+    border-color: #374151 !important;
+  }
+  
+  /* Shadows */
+  .dark .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  /* Hover states */
+  .dark .hover\:bg-gray-50:hover {
+    background-color: #374151 !important;
+  }
+  
+  .dark .hover\:bg-blue-700:hover {
+    background-color: #1d4ed8 !important;
+  }
+  
+  /* Toggle buttons */
+  .dark button.bg-gray-200 {
+    background-color: #4b5563 !important;
+    color: #e5e7eb !important;
+  }
+  
+  .dark h1, 
+  .dark h2, 
+  .dark h3, 
+  .dark p, 
+  .dark span:not(.bg-green-500):not(.bg-blue-500):not(.bg-red-500):not(.bg-yellow-500) {
+    color: #f9fafb !important;
+  }
+  
+  .dark .font-bold, 
+  .dark .font-medium, 
+  .dark .font-semibold {
+    color: #f9fafb !important;
+  }
+  
+  /* Chart fixes */
+  .dark canvas {
+    filter: brightness(0.8) contrast(1.2);
+  }
